@@ -6,3 +6,10 @@ function createPromise(position, delay) {
     // Reject
   }
 }
+
+const firstDelayInput = document.querySelector("input[name='delay']");
+const delayStepInput = document.querySelector("input[name='step']");
+const amountInput = document.querySelector("input[name='amount']");
+const submitBtn = document.querySelector('button')
+
+
